@@ -64,6 +64,7 @@
     margin-top: 93px;
     margin-left: 162px;
     width: 338px;
+    z-index: 2;
 }
 
 .header-down p{
@@ -130,4 +131,13 @@
     width: 13px;
 
     text-align: center;
+}
+
+.header-services__services-list svg:hover path,
+.header-services__services-list svg:focus path{
+    fill: $standart-color;
+}
+
+.header-services__services-list svg:active path{
+    fill: rgba($color: $standart-color, $alpha: 0.5);
 }

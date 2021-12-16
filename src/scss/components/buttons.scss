@@ -1,3 +1,4 @@
+// Typicall button code
 .typicall-button{
     display: block;
     line-height: 16px;
@@ -8,6 +9,7 @@
     text-align: center;
 
     border: solid $standart-color 0.5px;
+    background: none;
 }
 
 .typicall-button:hover,
@@ -18,4 +20,26 @@
 .typicall-button:active{
     background-color: rgba($color: $standart-color, $alpha: 0.5);
     border: solid rgba($color: $standart-color, $alpha: 0.1) 0.5px;
+}
+
+// Typical Link code
+
+.typicall-link{
+    margin: 0;
+    padding: 0;
+
+    color: rgba($color: #FFFFFF, $alpha: 0.2);
+    font-size: 18px;
+    
+    border: none;
+    background: none;
+}
+
+.typicall-link:focus,
+.typicall-link:hover{
+    color: rgba($color: #FFFFFF, $alpha: 1);
+}
+
+.typicall-link:active{
+    color: rgba($color: #FFFFFF, $alpha: 0.7);
 }
