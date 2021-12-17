@@ -7,6 +7,7 @@
     color: #fff;
     font-size: 14px;
     text-align: center;
+    font-family: $robotobold-font-tree;
 
     border: solid $standart-color 0.5px;
     background: none;
@@ -38,6 +39,7 @@
 .typicall-link:focus,
 .typicall-link:hover{
     color: rgba($color: #FFFFFF, $alpha: 1);
+    cursor: pointer;
 }
 
 .typicall-link:active{

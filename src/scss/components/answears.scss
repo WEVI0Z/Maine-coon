@@ -1,3 +1,44 @@
 .answears-wrapper{
     background-color: #151313;
 }
+
+.answears{
+    min-height: 618px;
+}
+
+.answears h2{
+    padding-top: 82px;
+    margin-bottom: 0;
+
+    font-family: $yesevaone-font-tree;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.answears p{
+    width: 428px;
+    margin: 0 auto;
+    margin-top: 21px;
+  
+    font-size: 16px;
+    line-height: 26px;
+    color: $standart-color;
+    text-align: center; 
+}
+
+.answears__list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+.answears__list a{
+    color: #fff;
+}
+
+.answears__list li{
+    width: 306px;
+}
