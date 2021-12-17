@@ -1,3 +1,92 @@
 .description{
+    min-height: 625px;
+
     background-image: url(../img/bg-cat.jpg);
+    background-size: cover;
+}
+
+.description h2{
+    margin: 0;
+    padding-top: 82px;
+
+    font-family: $yesevaone-font-tree;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.description__list{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1160px;
+    margin: 0 auto;
+    margin-top: 49px;
+
+    list-style-type: none;
+}
+
+.description__list a{
+    display: flex;
+    justify-content: space-between;
+    width: 558.56px;
+    min-height: 166px;
+    margin-bottom: 40px;
+
+    border: 1px solid $standart-color;
+}
+
+
+.description__list .list__item__left-side{
+    width: 498.71px;
+}
+
+.description__list h3{
+    margin-top: 38px;
+    margin-left: 58px;
+    margin-bottom: 0;
+
+    font-size: 22px;
+    font-family: $robotobold-font-tree;
+    line-height: 25px;
+    color: #fff;
+}
+
+.description__list p{
+    display: block;
+    width: 402px;
+    margin-top: 9px;
+    margin-left: 55px;
+
+    font-size: 14px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.description__list .list__item__right-side{
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 59px;
+    min-height: 165px;
+
+    background-color: $standart-color; 
+    border-left: solid 1px $standart-color;
+}
+
+.description__list svg{
+    position: absolute;
+    top: 74.3px;
+    left: 27.64px;
+}
+
+.description__list a:hover .list__item__right-side,
+.description__list a:focus .list__item__right-side{
+    background: none;
+}
+
+.description__list a:active path{
+    stroke: rgba($color: white, $alpha: 0.5);
 }

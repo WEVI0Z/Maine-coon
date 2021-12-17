@@ -29,16 +29,75 @@
 
 .answears__list{
     display: flex;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
+    width: 1148px;
+    margin-left: 61px;
+    margin-top: 44px;
 
     list-style-type: none;
 }
 
 .answears__list a{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: inherit;
+    z-index: 2;
+}
+
+.answears__list p{
+    display: block;
+    width: 233px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    z-index: 2;
+
     color: #fff;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .answears__list li{
-    width: 306px;
+    padding: 0;
+    width: 360px;
+    min-height: 301px;
+
+    text-align: center;
+
+    background-color: #1F1C1D;
+}
+
+.answears__list path{
+    fill: $standart-color;
+}
+
+.answears__list svg{
+    margin: 0 auto;
+    margin-top: 66px;
+    z-index: 2;
+}
+
+.answears__list a:hover path,
+.answears__list a:focus path{
+    fill: white;
+}
+
+.answears__list a:hover::before,
+.answears__list a:focus::before{
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 267px;
+    top: 20px;
+    left: 21px;
+    z-index: 1;
+
+    background-color: $standart-color;
+}
+
+.answears__list a:active::before{
+    background-color: rgba($color: $standart-color, $alpha: 0.7);
 }
