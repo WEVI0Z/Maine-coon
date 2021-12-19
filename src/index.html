@@ -378,12 +378,14 @@
         </div>
         <section class="questions container">
             <h2>Вопрос-Ответ</h2>
-            <p>Мы ответим на самые популярные ваши вопросы</p>
-            <ol class="questions-list">
+            <p class="questions__description">Мы ответим на самые популярные ваши вопросы</p>
+            <ol class="questions__list">
                 <li>
-                    <h3>С какого возраста можно забирать котенка из питомника?</h3>
-                    <button>Показать ответ</button>
-                    <div class="questions-item-description-block">
+                    <div class="questions__item__upper-part">
+                        <h3>С какого возраста можно забирать котенка из питомника?</h3>
+                        <button aria-label="Показать ответ" class="upper-part__button_active"></button>
+                    </div>
+                    <div class="questions__item__description-block">
                         <p>
                             Есть важная причина, почему котенка стоит забирать домой только после трех месяцев, 
                             — это вакцинация. Первые прививки животному делают в возрасте 8 недель. Ревакцинация проводится 
@@ -396,9 +398,11 @@
                     </div>
                 </li>
                 <li>
-                    <h3>Как зарезервировать котенка?</h3>
-                    <button>Показать ответ</button>
-                    <div class="questions-item-description-block" hidden>
+                    <div class="questions__item__upper-part">
+                        <h3>Как зарезервировать котенка?</h3>
+                        <button aria-label="Показать ответ" class="upper-part__button_unactive"></button>
+                    </div>
+                    <div class="questions__item__description-block" hidden>
                         <p>
                             Есть важная причина, почему котенка стоит забирать домой только после трех месяцев, 
                             — это вакцинация. Первые прививки животному делают в возрасте 8 недель. Ревакцинация проводится 
@@ -411,9 +415,11 @@
                     </div>
                 </li>
                 <li>
-                    <h3>Можно ли купить кота, если я живу в другом городе?</h3>
-                    <button>Показать ответ</button>
-                    <div class="questions-item-description-block" hidden>
+                    <div class="questions__item__upper-part">
+                        <h3>Можно ли купить кота, если я живу в другом городе?</h3>
+                        <button aria-label="Показать ответ" class="upper-part__button_unactive"></button>
+                    </div>
+                    <div class="questions__item__description-block" hidden>
                         <p>
                             Есть важная причина, почему котенка стоит забирать домой только после трех месяцев, 
                             — это вакцинация. Первые прививки животному делают в возрасте 8 недель. Ревакцинация проводится 
@@ -426,9 +432,11 @@
                     </div>
                 </li>
                 <li>
-                    <h3>Как подготовить дом к приему нового питомца? </h3>
-                    <button>Показать ответ</button>
-                    <div class="questions-item-description-block" hidden>
+                    <div class="questions__item__upper-part">
+                        <h3>Как подготовить дом к приему нового питомца?</h3>
+                        <button aria-label="Показать ответ" class="upper-part__button_unactive"></button>
+                    </div>
+                    <div class="questions__item__description-block" hidden>
                         <p>
                             Есть важная причина, почему котенка стоит забирать домой только после трех месяцев, 
                             — это вакцинация. Первые прививки животному делают в возрасте 8 недель. Ревакцинация проводится 
@@ -441,7 +449,7 @@
                     </div>
                 </li>
             </ol>
-            <a href="#">Задать вопрос</a>
+            <a href="#" class="questions__button typicall-button">Задать вопрос</a>
         </section>
         <section class="users-opinions container">
             <h2>Отзывы</h2>

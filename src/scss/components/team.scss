@@ -15,7 +15,7 @@
     font-weight: 400;
 }
 
-.team .team__description{
+.team__description{
     width: 510px;
     margin: 0 auto;
     margin-top: 23px;
@@ -146,4 +146,10 @@
 
 .team__slider__services svg:active path{
     fill: rgba($color: $standart-color, $alpha: 0.5);
+}
+
+.questions__button{
+    width: 200px;
+    margin-top: -15px;
+    margin-left: 908px;
 }
