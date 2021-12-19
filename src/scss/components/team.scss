@@ -26,25 +26,15 @@
     text-align: center; 
 }
 
-.slider__button{
-    position: absolute;
+.team__slider__previous-button{
     top: 403px;
     z-index: 2;
-
-    border: none;
-    background: none;
-}
-
-.slider__button:hover path{
-    stroke: white;
-    stroke-opacity: 1.0;
-}
-
-.team__slider__previous-button{
     left: 84px;
 }
 
 .team__slider__next-button{
+    top: 403px;
+    z-index: 2;
     right: 84px;
 }
 
@@ -78,7 +68,6 @@
     top: -21px;
     left: 500px;
 
-    // border: 1px solid $standart-color;
     border: 1px solid rgba($color: $standart-color, $alpha: 0.43);
 }
 
@@ -139,7 +128,7 @@
     z-index: 2;
 }
 
-.team__slider__services li:hover path,
+.team__slider__services svg:hover path,
 .team__slider__services svg:focus path{
     fill: $standart-color;
 }
