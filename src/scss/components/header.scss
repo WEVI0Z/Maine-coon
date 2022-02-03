@@ -142,13 +142,3 @@
 .header-services__services-list svg:active path{
     fill: rgba($color: $standart-color, $alpha: 0.5);
 }
-
-@media (max-width: 768px) {
-    .header-wrapper{
-        background-color: white;
-    }
-
-    .main-header{
-        background-color: white;
-    }
-}
