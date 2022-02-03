@@ -48,6 +48,7 @@ input[type="radio"].visually-hidden {
 .container {
   position: relative;
 
+  width: 100%;
   max-width: 1366px;
   margin: 0 auto;
   padding: 0 40px;
@@ -58,11 +59,5 @@ input[type="radio"].visually-hidden {
     width: auto;
     margin: 0;
     padding: 0 27px;
-  }
-}
-
-@media (max-width: $tablet-width) {
-  .container {
-    padding: 0 15px;
   }
 }
