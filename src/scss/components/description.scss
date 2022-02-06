@@ -1,8 +1,10 @@
-.description {
-  min-height: 645px;
-
+.description-wrapper {
   background-image: url(../img/bg-cat.jpg);
   background-size: cover;
+}
+
+.description {
+  min-height: 645px;
 }
 
 .description h2 {
