@@ -1,13 +1,13 @@
-.answears-wrapper{
+.answears-wrapper {
     background-color: #151313;
 }
 
-.answears{
+.answears {
     min-height: 618px;
     background-color: #151313;
 }
 
-.answears h2{
+.answears h2 {
     padding-top: 82px;
     margin-bottom: 0;
 
@@ -17,7 +17,7 @@
     font-weight: 300;
 }
 
-.answears p{
+.answears p {
     width: 428px;
     margin: 0 auto;
     margin-top: 21px;
@@ -28,9 +28,10 @@
     text-align: center; 
 }
 
-.answears__list{
+.answears__list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     width: 1148px;
@@ -40,7 +41,7 @@
     list-style-type: none;
 }
 
-.answears__list a{
+.answears__list a {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -49,7 +50,7 @@
     z-index: 2;
 }
 
-.answears__list p{
+.answears__list p {
     display: block;
     width: 233px;
     margin: 0 auto;
@@ -61,7 +62,7 @@
     line-height: 26px;
 }
 
-.answears__list li{
+.answears__list li {
     padding: 0;
     width: 360px;
     min-height: 301px;
@@ -71,23 +72,23 @@
     background-color: #1F1C1D;
 }
 
-.answears__list path{
+.answears__list path {
     fill: $standart-color;
 }
 
-.answears__list svg{
+.answears__list svg {
     margin: 0 auto;
     margin-top: 66px;
     z-index: 2;
 }
 
 .answears__list a:hover path,
-.answears__list a:focus path{
+.answears__list a:focus path {
     fill: white;
 }
 
 .answears__list a:hover::before,
-.answears__list a:focus::before{
+.answears__list a:focus::before {
     content: "";
     position: absolute;
     width: 320px;
@@ -99,6 +100,22 @@
     background-color: $standart-color;
 }
 
-.answears__list a:active::before{
+.answears__list a:active::before {
     background-color: rgba($color: $standart-color, $alpha: 0.7);
+}
+
+@media (max-width: $tablet-width) {
+    .answears {
+        min-height: 1334px;
+    }
+    
+    .answears__list {
+        width: 360px;
+        margin-left: 173px;
+        margin-top: 62px;
+    }
+
+    .answears__list li {
+        margin-bottom: 44px;
+    }
 }
