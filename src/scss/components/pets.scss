@@ -35,29 +35,49 @@
   list-style-type: none;
 }
 
-.pets__males {
+.pets__pictures .pets__females {
+  display: none;
+}
+
+.pets__pictures .pets__young-pets {
+  display: none;
+}
+
+.pets__pictures__tablet{
+  display: none;
+}
+
+.pets__pictures__mobile{
+  display: none;
+}
+
+.pets__pictures ul{
   display: flex;
-  position: relative;
   flex-wrap: wrap;
-  margin: 0;
-  margin-top: 45px;
-  margin-left: 80px;
 
   list-style-type: none;
 }
 
-.males__left-side li {
+.pets__pictures__desktop .pets__males{
+  position: relative;
+  margin: 0;
+  margin-top: 45px;
+  margin-left: 80px;
+}
+
+
+.pets__pictures__desktop .males__left-side li {
   margin-bottom: 24px;
 }
 
-.males__right-side {
+.pets__pictures__desktop .males__right-side {
   position: relative;
   width: 474px;
   height: 485px;
   margin-left: 32px;
 }
 
-.males__right-side img {
+.pets__pictures__desktop .males__right-side img {
   position: relative;
   width: 100%;
   height: 100%;
