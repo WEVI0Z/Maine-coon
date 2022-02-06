@@ -1,61 +1,89 @@
-.footer__wrapper{
-    background-color: #151313;
+.footer__wrapper {
+  background-color: #151313;
 }
 
-.main__footer{
-    display: flex;
-    min-height: 156px;
+.main__footer {
+  display: flex;
+  min-height: 156px;
 
-    background-color: #151313;
+  background-color: #151313;
 }
 
-.footer__logo{
-    margin-top: 70px;
-    margin-left: 203px;
+.footer__logo {
+  margin-top: 70px;
+  margin-left: 203px;
 }
 
-.footer__services__list{
-    margin-top: 80px;
-    margin-left: 85px;
-    display: flex;
+.footer__services__list {
+  margin-top: 80px;
+  margin-left: 85px;
+  display: flex;
 
-    list-style-type: none;
+  list-style-type: none;
 }
 
-.footer__services__list path{
-    fill: $standart-color;
+.footer__services__list path {
+  fill: $standart-color;
 }
 
-.footer__services__list li{
-    margin-right: 9px;
+.footer__services__list li {
+  margin-right: 9px;
 }
 
 .footer__services__list li:hover path,
-.footer__services__list li:focus path{
-    fill: white;
+.footer__services__list li:focus path {
+  fill: white;
 }
 
-.footer__services__list li:active path{
-    opacity: 0.5;
+.footer__services__list li:active path {
+  opacity: 0.5;
 }
 
-.footer__contacts__list{
+.footer__contacts__list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  margin-top: 78px;
+}
+
+.footer__contacts__list a {
+  color: white;
+  font-size: 14px;
+}
+
+.footer__contacts__list .address {
+  margin-left: 144px;
+}
+
+.footer__contacts__list .phonenumber {
+  margin-left: 68px;
+  font-weight: 700;
+}
+
+@media (max-width: $tablet-width) {
+  .main__footer {
+    min-height: 105px;
+  }
+
+  .footer__logo {
+    display: none;
+  }
+
+  .footer__services__list {
+    margin-top: 42px;
+    margin-left: 28px;
     padding: 0;
-    list-style-type: none;
-    display: flex; 
-    margin-top: 78px;
-}
+  }
 
-.footer__contacts__list a{
-    color: white;
-    font-size: 14px;
-}
+  .footer__contacts__list {
+    margin-top: 39px;
+  }
 
-.footer__contacts__list .address{
-    margin-left: 144px;
-}
+  .footer__contacts__list .address {
+    margin-left: 121px;
+  }
 
-.footer__contacts__list .phonenumber{
-    margin-left: 68px;
-    font-weight: 700;
+  .footer__contacts__list .phonenumber {
+    margin-left: 79px;
+  }
 }

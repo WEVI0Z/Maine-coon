@@ -1,68 +1,68 @@
 // Typicall button code
-.typicall-button{
-    display: block;
-    line-height: 16px;
-    padding: 17px 10px;
+.typicall-button {
+  display: block;
+  line-height: 16px;
+  padding: 17px 10px;
 
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-    font-family: $robotobold-font-tree;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  font-family: $robotobold-font-tree;
 
-    border: solid $standart-color 0.5px;
-    background: none;
+  border: solid $standart-color 0.5px;
+  background: none;
 }
 
 .typicall-button:hover,
-.typicall-button:focus{
-    background-color: $standart-color;
+.typicall-button:focus {
+  background-color: $standart-color;
 }
 
-.typicall-button:active{
-    background-color: rgba($color: $standart-color, $alpha: 0.5);
-    border: solid rgba($color: $standart-color, $alpha: 0.1) 0.5px;
+.typicall-button:active {
+  background-color: rgba($color: $standart-color, $alpha: 0.5);
+  border: solid rgba($color: $standart-color, $alpha: 0.1) 0.5px;
 }
 
 // Typical Link code
 
-.typicall-link{
-    margin: 0;
-    padding: 0;
+.typicall-link {
+  margin: 0;
+  padding: 0;
 
-    color: rgba($color: #FFFFFF, $alpha: 0.2);
-    font-size: 18px;
-    
-    border: none;
-    background: none;
+  color: rgba($color: #FFFFFF, $alpha: 0.2);
+  font-size: 18px;
+
+  border: none;
+  background: none;
 }
 
 .typicall-link:focus,
-.typicall-link:hover{
-    color: rgba($color: #FFFFFF, $alpha: 1);
-    cursor: pointer;
+.typicall-link:hover {
+  color: rgba($color: #FFFFFF, $alpha: 1);
+  cursor: pointer;
 }
 
-.typicall-link:active{
-    color: rgba($color: #FFFFFF, $alpha: 0.7);
+.typicall-link:active {
+  color: rgba($color: #FFFFFF, $alpha: 0.7);
 }
 
 
 //Slider buttons code
 
-.slider__button{
-    position: absolute;
+.slider__button {
+  position: absolute;
 
-    border: none;
-    background: none;
+  border: none;
+  background: none;
 }
 
 .slider__button:hover path,
-.slider__button:focus path{
-    stroke: white;
-    stroke-opacity: 1.0;
+.slider__button:focus path {
+  stroke: white;
+  stroke-opacity: 1.0;
 }
 
-.slider__button:active path{
-    stroke: white;
-    stroke-opacity: 0.5;
+.slider__button:active path {
+  stroke: white;
+  stroke-opacity: 0.5;
 }
