@@ -1,0 +1,45 @@
+@media (max-width: $tablet-width) {
+    .users-opinions{
+        min-height: 634px;
+    }
+
+    .users-opinions__previous-slider-button{
+        top: 370px;
+        left: 34px;
+        z-index: 2;
+    }
+    
+    .users-opinions__next-slider-button{
+        top: 370px;
+        right: 44px;
+        z-index: 2;
+    }
+
+    .users__slider__avatar{
+        width: 302px;
+        height: 208px;
+        top: -96px;
+        left: 214px;
+    }
+
+    .users__slider .slider__item{
+        width: 578px;
+        min-height: 368px;
+        margin-left: 36px;
+        margin-top: 142px;
+        padding-top: 145px;
+        padding-left: 120px;
+
+        text-align: center;
+    }
+
+    .users__slider__date{
+        margin-top: 20px;
+        margin-left: 92px;
+    }
+
+    .users__slider__services{
+        margin-top: 17px;
+        margin-left: 2px;
+    }    
+}
