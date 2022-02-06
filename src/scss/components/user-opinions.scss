@@ -1,9 +1,9 @@
-.users-opinions{
-    position: relative;
-    min-height: 624px;
+.users-opinions {
+  position: relative;
+  min-height: 624px;
 }
 
-.users-opinions h2{
+.users-opinions h2 {
   margin: 0;
 
   font-family: $yesevaone-font-tree;
@@ -12,109 +12,155 @@
   font-weight: 400;
 }
 
-.users-opinions__previous-slider-button{
-    top: 314px;
-    left: 83px;
-    z-index: 2;
+.users-opinions__previous-slider-button {
+  top: 314px;
+  left: 83px;
+  z-index: 2;
 }
 
-.users-opinions__next-slider-button{
-    top: 314px;
-    right: 83px;
-    z-index: 2;
+.users-opinions__next-slider-button {
+  top: 314px;
+  right: 83px;
+  z-index: 2;
 }
 
-.users__slider{
-    position: relative;
+.users__slider {
+  position: relative;
 
-    list-style-type: none;
+  list-style-type: none;
 }
 
-.users__slider__avatar{
-    position: absolute;
-    z-index: 1;
-    top: 47px;
-    left: 132px;
+.users__slider__avatar {
+  position: absolute;
+  z-index: 1;
+  top: 47px;
+  left: 132px;
 }
 
-.users__slider .slider__item{
-    width: 640px;
-    min-height: 408px;
-    margin-left: 474px;
-    margin-top: 62px;
-    padding-top: 110px;
-    padding-left: 145px;
-    padding-right: 90px;
+.users__slider .slider__item {
+  width: 640px;
+  min-height: 408px;
+  margin-left: 474px;
+  margin-top: 62px;
+  padding-top: 110px;
+  padding-left: 145px;
+  padding-right: 90px;
 
-    background-color: #151313;
+  background-color: #151313;
 }
 
-.users__slider__user-name{
-    margin: 0;
+.users__slider__user-name {
+  margin: 0;
 
-    font-size: 24px;
-    font-weight: 500;
+  font-size: 24px;
+  font-weight: 500;
 }
 
-.users__slider__slogan{
-    margin-top: 14px;
+.users__slider__slogan {
+  margin-top: 14px;
 
-    font-size: 14px;
-    line-height: 23px;
-    font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 300;
 }
 
-.users__slider__additional-information{
-    display: flex;
+.users__slider__additional-information {
+  display: flex;
 }
 
-.users__slider__date{
-    margin-top: 34px;
-    margin-left: 27px;
+.users__slider__date {
+  margin-top: 34px;
+  margin-left: 27px;
 
-    color: $standart-color;
-    font-size: 12px;
+  color: $standart-color;
+  font-size: 12px;
 }
 
-.users__slider__services{
-    margin-top: 31px;
-    margin-left: 3px;
-    display: flex;
+.users__slider__services {
+  margin-top: 31px;
+  margin-left: 3px;
+  display: flex;
 
-    list-style-type: none;
+  list-style-type: none;
 }
 
-.users__slider__services li{
-    position: relative;
-    margin-right: 30px;
-    z-index: 2;
+.users__slider__services li {
+  position: relative;
+  margin-right: 30px;
+  z-index: 2;
 }
 
-.users__slider__services li::before{
-    content: "";
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    top: -6px;
-    left: -6px;
+.users__slider__services li::before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: -6px;
+  left: -6px;
 
-    border: 1px solid $standart-color;
+  border: 1px solid $standart-color;
 }
 
 .users__slider__services li:hover path,
-.users__slider__services li:focus path{
-    fill: white;
+.users__slider__services li:focus path {
+  fill: white;
 }
 
 .users__slider__services li:hover::before,
-.users__slider__services li:focus::before{
-    border: 1px solid white;
+.users__slider__services li:focus::before {
+  border: 1px solid white;
 }
 
-.users__slider__services li:active path{
-    opacity: 0.5;
+.users__slider__services li:active path {
+  opacity: 0.5;
 }
 
-.users__slider__services li:active::before{
-    opacity: 0.5;
+.users__slider__services li:active::before {
+  opacity: 0.5;
+}
+
+@media (max-width: $tablet-width) {
+  .users-opinions {
+    min-height: 634px;
+  }
+
+  .users-opinions__previous-slider-button {
+    top: 370px;
+    left: 34px;
+    z-index: 2;
+  }
+
+  .users-opinions__next-slider-button {
+    top: 370px;
+    right: 44px;
+    z-index: 2;
+  }
+
+  .users__slider__avatar {
+    width: 302px;
+    height: 208px;
+    top: -96px;
+    left: 214px;
+  }
+
+  .users__slider .slider__item {
+    width: 578px;
+    min-height: 368px;
+    margin-left: 36px;
+    margin-top: 142px;
+    padding-top: 145px;
+    padding-left: 120px;
+
+    text-align: center;
+  }
+
+  .users__slider__date {
+    margin-top: 20px;
+    margin-left: 92px;
+  }
+
+  .users__slider__services {
+    margin-top: 17px;
+    margin-left: 2px;
+  }
 }
