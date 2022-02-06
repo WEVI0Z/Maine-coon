@@ -3,12 +3,10 @@
 }
 
 .main__footer{
-    background-color: #151313;
-}
-
-.main__footer{
     display: flex;
     min-height: 156px;
+
+    background-color: #151313;
 }
 
 .footer__logo{
@@ -24,13 +22,17 @@
     list-style-type: none;
 }
 
+.footer__services__list path{
+    fill: $standart-color;
+}
+
 .footer__services__list li{
     margin-right: 9px;
 }
 
 .footer__services__list li:hover path,
 .footer__services__list li:focus path{
-    fill: $standart-color;
+    fill: white;
 }
 
 .footer__services__list li:active path{

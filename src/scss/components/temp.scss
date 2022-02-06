@@ -1,0 +1,27 @@
+@media (max-width: $tablet-width) {
+    .main__footer{
+        min-height: 105px;
+    }
+
+    .footer__logo{
+        display: none;
+    }
+
+    .footer__services__list{
+        margin-top: 42px;
+        margin-left: 28px;
+        padding: 0;
+    }
+
+    .footer__contacts__list{
+        margin-top: 39px;
+    }
+
+    .footer__contacts__list .address{
+        margin-left: 121px;
+    }
+    
+    .footer__contacts__list .phonenumber{
+        margin-left: 79px;
+    }
+}
