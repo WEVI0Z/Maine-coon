@@ -1,6 +1,7 @@
 .description-wrapper {
   background-image: url(../img/bg-cat.jpg);
   background-size: cover;
+  min-width: 1366px;
 }
 
 .description {
@@ -94,6 +95,12 @@
 }
 
 @media (max-width: $tablet-width) {
+  .description-wrapper {
+    background-image: url(../img/bg-cat.jpg);
+    background-size: cover;
+    min-width: 768px;
+  }
+
   .description {
     min-height: 1000px;
   }
