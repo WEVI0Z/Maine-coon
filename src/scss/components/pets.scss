@@ -89,3 +89,74 @@
   margin-top: 27px;
   width: 200px;
 }
+
+@media (max-width: $tablet-width) {
+  .pets h2 {
+      margin-top: 102px;
+      margin-bottom: 0;
+      
+      font-family: $yesevaone-font-tree;
+      font-size: 36px;
+      text-align: center;
+      font-weight: 300;
+  }    
+    
+  .pets__list-of-genders {
+      margin-top: 44px;
+      margin-left: 185px;
+      width: 290px;
+      display: flex;
+      justify-content: space-between;
+  
+      list-style-type: none;
+  }
+
+  .pets__pictures__desktop {
+      display: none;
+  }
+
+  .pets__pictures__tablet{
+      display: block;
+  }
+
+  .pets__pictures__tablet .pets__males{
+      position: relative;
+  }
+
+  .pets__pictures__tablet .males__main-picture {
+      z-index: 1;
+      margin-top: 0px;
+      margin-left: 68px;
+  }
+
+  .pets__pictures__tablet .males__left-side {
+      position: absolute;
+      top: 173px;
+      left: 43px;
+      z-index: 0;
+  }
+
+  .pets__pictures__tablet .males__right-side {
+      z-index: 0;
+      position: absolute;
+      top: 173px;
+      right: 79px;
+  }
+
+  .pets__pictures__tablet .pets__previous-button{
+      position: absolute;
+      top: 448px;
+      left: 20px;
+  }
+
+  .pets__pictures__tablet .pets__next-button{
+      position: absolute;
+      top: 448px;
+      right: 27px;
+  }
+
+  .pets__link-button{
+      margin-top: 49px;
+      margin-left: 254px;
+  }
+}
