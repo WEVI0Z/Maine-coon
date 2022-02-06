@@ -31,27 +31,27 @@
   list-style-type: none;
 }
 
-.questions__list li::before{
-    content: counter(num);
-    position: absolute;
-    counter-increment: num;
-    top: 18px;
-    left: -80px;
+.questions__list li::before {
+  content: counter(num);
+  position: absolute;
+  counter-increment: num;
+  top: 18px;
+  left: -80px;
 
-    color: $standart-color;
-    font-size: 70px;
-    font-weight: 700;
+  color: $standart-color;
+  font-size: 70px;
+  font-weight: 700;
 }
 
-.questions__list li::after{
-    content: "0";
-    position: absolute;
-    top: 18px;
-    left: -120px;
+.questions__list li::after {
+  content: "0";
+  position: absolute;
+  top: 18px;
+  left: -120px;
 
-    color: $standart-color;
-    font-size: 70px;
-    font-weight: 700;
+  color: $standart-color;
+  font-size: 70px;
+  font-weight: 700;
 }
 
 .questions__list li {
@@ -72,7 +72,8 @@
 }
 
 .questions__item__upper-part h3 {
-  margin-top: 50px;
+  vertical-align: middle;
+  margin: auto;
   margin-left: 40px;
 
   font-size: 16px;
@@ -130,7 +131,7 @@
   padding-top: 12px;
   padding-left: 40px;
   padding-right: 200px;
-  padding-bottom: 37px;
+  padding-bottom: 30px;
 }
 
 .questions__item__description-block p {
@@ -140,4 +141,77 @@
   color: #DDD0C3;
   line-height: 24.64px;
   font-weight: 300;
+}
+
+.questions__button {
+  width: 200px;
+  margin-top: -5px;
+  margin-left: 908px;
+}
+
+@media (max-width: $tablet-width) {
+  .questions h2 {
+    padding-top: 135px;
+
+    font-size: 34px;
+  }
+
+  .questions__list li::before {
+    left: -52px;
+    top: 10px;
+
+    font-size: 50px;
+  }
+
+  .questions__list li::after {
+    left: -80px;
+    top: 10px;
+
+    font-size: 50px;
+  }
+
+  .questions__list li {
+    margin-left: 133px;
+    margin-bottom: 22px;
+    width: 550px;
+  }
+
+  .questions__item__upper-part h3 {
+    margin-left: 30px;
+    margin-right: 50px;
+  }
+
+  .questions__item__upper-part {
+    min-height: 77px;
+  }
+
+  .questions__item__upper-part button {
+    width: 72px;
+  }
+
+  .upper-part__button_unactive::before {
+    top: 28px;
+    left: 28px;
+  }
+
+  .questions__item__upper-part .upper-part__button_active::before {
+    top: 37px;
+    left: 29px;
+  }
+
+  .questions__item__description-block {
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 130px;
+    padding-bottom: 23px;
+  }
+
+  .questions__item__description-block p {
+    margin-top: 24px;
+  }
+
+  .questions__button {
+    margin-left: 483px;
+    margin-top: -3px;
+  }
 }

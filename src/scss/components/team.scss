@@ -142,12 +142,6 @@
   fill: rgba($color: $standart-color, $alpha: 0.5);
 }
 
-.questions__button {
-  width: 200px;
-  margin-top: -15px;
-  margin-left: 908px;
-}
-
 @media (max-width: $tablet-width) {
   .team {
     min-height: 824px;
