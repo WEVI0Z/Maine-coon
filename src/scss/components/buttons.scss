@@ -23,6 +23,13 @@
   border: solid rgba($color: $standart-color, $alpha: 0.1) 0.5px;
 }
 
+@media (max-width: $mobile-width) {
+  .typicall-button {
+    font-size: 12px;
+    padding: 10px 10px;
+  }
+}
+
 // Typical Link code
 
 .typicall-link {
