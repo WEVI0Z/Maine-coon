@@ -1,4 +1,4 @@
-.header-wrapper {
+.header__wrapper {
   background-color: #181617;
 }
 
@@ -11,6 +11,10 @@
   display: flex;
   justify-content: space-between;
   width: 670px;
+}
+
+.main-navigation button {
+  display: none;
 }
 
 .main-navigation ul {
@@ -217,5 +221,126 @@
   .header-down img {
     width: 800px;
     object-fit: contain;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .main-header {
+    min-height: 597px;
+  }
+
+  .main-navigation ul {
+    display: none;
+    position: relative;
+  }
+
+  .header-top {
+    width: 185px;
+  }
+
+  .header-logo {
+    margin-top: 26px;
+  }
+
+  .header-logo__svg {
+    width: 60px;
+    height: 22px;
+  }
+
+  .main-navigation button {
+    display: block;
+  }
+
+  .navigation__close-button__svg {
+    margin-right: 4px;
+    margin-top: 1px;
+  }
+
+  .navigation__open-button__svg {
+    display: block;
+  }
+
+  .navigation__button {
+    position: absolute;
+    top: 28.5px;
+    right: 19px;
+
+    border: none;
+    background: none;
+  }
+
+  .navigation__button:hover rect,
+  .navigation__button:focus rect {
+    opacity: 50%;
+  }
+
+  .navigation__button:active rect {
+    opacity: 20%;
+  }
+
+  .header-down__left-side {
+    margin-top: 34px;
+    margin-left: -10px;
+
+    text-align: center;
+  }
+
+  .header-down p {
+    margin-bottom: 0;
+
+    font-size: 14px;
+  }
+
+  .header-down h1 {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: 45px;
+    width: 234px;
+
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .header__description {
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 230px;
+
+    line-height: 19px;
+  }
+
+  .header-down__button {
+    width: 137px;
+    margin-left: 97px;
+    margin-top: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-size: 12px;
+  }
+
+  .header-services {
+    display: none;
+  }
+
+  .header-down__right-side .cat-tablet-image {
+    display: none;
+  }
+
+  .header-down__right-side .cat-desktop-image {
+    display: block;
+    width: 400px;
+  }
+
+  .header-down img {
+    width: 400px;
+  }
+
+  .header-down__right-side {
+    position: absolute;
+    top: 56px;
+    left: -90px;
+    width: 500px;
+    height: 712px;
   }
 }
