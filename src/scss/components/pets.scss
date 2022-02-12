@@ -152,3 +152,87 @@
     margin-left: 254px;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .pets {
+    min-height: 515px;
+  }
+
+  .pets h2 {
+    margin-top: 55px;
+
+    font-size: 28px;
+  }
+
+  .pets p {
+    width: 300px;
+    margin-top: 20px;
+
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .pets__list-of-genders {
+    margin: 0;
+    margin-top: 31px;
+    margin-left: 1px;
+    width: 268px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pets__list-of-genders button {
+    font-size: 16px;
+  }
+
+  .slider__button svg {
+    width: 10px;
+    height: 20px;
+  }
+
+  .pets__previous-button {
+    display: block;
+    position: absolute;
+    top: 303px;
+    left: 8px;
+  }
+
+  .pets__next-button {
+    display: block;
+    position: absolute;
+    top: 303px;
+    right: 17px;
+  }
+
+  .males__main-picture {
+    margin-top: -26px;
+    margin-left: -82px;
+  }
+
+  .males__main-picture img {
+    height: 254px;
+    width: 234px;
+  }
+
+  .males__left-side {
+    display: none;
+  }
+
+  .males__right-side {
+    display: none;
+  }
+
+  .pets__link-button {
+    margin-top: 0px;
+    margin-left: 86px;
+    width: 137px;
+  }
+
+  .pets__pictures {
+    min-height: 276px;
+  }
+
+  .pets__pictures ul {
+    min-height: 276px;
+  }
+}
