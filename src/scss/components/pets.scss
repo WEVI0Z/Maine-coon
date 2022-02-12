@@ -42,7 +42,7 @@
   justify-content: space-between;
   padding-bottom: 24px;
   width: 1080px;
-  height: 513px;
+  min-height: 513px;
 
   list-style-type: none;
 }
@@ -77,7 +77,7 @@
 
   .pets__pictures ul {
     width: 573px;
-    height: 491px;
+    min-height: 491px;
   }  
 
   .pets__pictures .slider__button {
