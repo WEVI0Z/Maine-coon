@@ -102,11 +102,8 @@
     z-index: 1;
     margin-top: -5px;
     margin-left: -10px;
-  }
-
-  .males__main-picture img{
-    height: 489px;
-    width: 470px;
+    width: 234px;
+    height: 254px;
   }
 
   .males__left-side {
@@ -159,7 +156,7 @@
   }
 
   .pets h2 {
-    margin-top: 55px;
+    margin-top: 52px;
 
     font-size: 28px;
   }
@@ -170,6 +167,14 @@
 
     font-size: 14px;
     line-height: 19px;
+  }
+
+  .pets__pictures ul {
+    min-height: 252px;
+  }
+
+  .pets__pictures {
+    min-height: 252px;
   }
 
   .pets__list-of-genders {
@@ -223,16 +228,8 @@
   }
 
   .pets__link-button {
-    margin-top: 0px;
+    margin-top: 21.5px;
     margin-left: 86px;
     width: 137px;
-  }
-
-  .pets__pictures {
-    min-height: 276px;
-  }
-
-  .pets__pictures ul {
-    min-height: 276px;
   }
 }
