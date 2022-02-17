@@ -1,7 +1,7 @@
 .description-wrapper {
   background-image: url(../img/bg-cat.jpg);
   background-size: cover;
-  min-width: 1366px;
+  min-width: $large-width;
 }
 
 .description {
@@ -73,7 +73,7 @@
   margin: 0;
   padding: 0;
   width: 59px;
-  min-height: 165px;
+  min-height: auto;
 
   background-color: $standart-color;
   border-left: solid 1px $standart-color;
@@ -98,7 +98,7 @@
   .description-wrapper {
     background-image: url(../img/bg-cat.jpg);
     background-size: cover;
-    min-width: 768px;
+    min-width: $tablet-width;
   }
 
   .description {
