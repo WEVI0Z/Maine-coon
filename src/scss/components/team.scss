@@ -2,7 +2,7 @@
   position: relative;
   background-color: #151313;
 
-  min-height: 694px;
+  min-height: auto;
 }
 
 .team {
@@ -192,5 +192,100 @@
     top: 694px;
     z-index: 2;
     right: 86px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .team-wrapper {
+    min-height: auto;
+  }
+
+  .team h2 {
+    padding-top: 52px;
+
+    font-size: 28px;
+  }
+
+  .team {
+    min-height: 583px;
+  }
+
+  .team__description {
+    width: 270px;
+    margin: 0 auto;
+    margin-top: 23px;
+  
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .team__slider__previous-button {
+    top: 247px;
+    left: 62px;
+  }
+  
+  .team__slider__next-button {
+    top: 247px;
+    right: 74px;
+  }
+  
+  .team__slider .slider__item::before {
+    display: none;
+  }
+
+  .team__slider .slider__item {
+    margin-top: 94px;
+    margin-left: 13px;
+  }
+
+  .team__slider .slider__right-side {
+    width: 281px;
+    height: 266px;
+  }
+
+  .team__slider p {
+    margin-left: 0px;
+  }
+  
+  .team__slider .slider__name {
+    margin-top: 78px;
+  
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .team__slider .slider__work {
+    margin-top: 0;
+    margin-bottom: 0;
+  
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+  }
+  
+  .team__slider .slider__slogan {
+    margin: 0 auto;
+    margin-top: 14px;
+    width: 266px;
+  
+    line-height: 19px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .team__slider__services {
+    margin-left: 97px;
+    margin-top: 21px;
+  }
+
+  .team__slider .slider__left-side {
+    top: -61px;
+    left: 92px;
+    width: 123px;
+    height: 123px;
+  }
+
+  .team__slider__services svg{
+    height: 11px;
   }
 }
