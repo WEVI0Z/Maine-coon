@@ -164,3 +164,69 @@
     margin-left: 2px;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .users-opinions h2 {
+    margin-top: 6px;
+
+    font-size: 26px;
+  }
+
+  .users__slider__avatar {
+    top: -103px;
+    left: 37px;
+    width: 234px;
+    height: 160px;
+  }
+
+  .users-opinions__previous-slider-button {
+    top: 138px;
+    left: 7px;
+  }
+
+  .users-opinions__next-slider-button {
+    top: 138px;
+    right: 18px;
+  }
+
+  .users__slider .slider__item {
+    width: 320px;
+    min-height: 368px;
+    margin-left: 0px;
+    margin-top: 142px;
+    padding-top: 87px;
+    padding-left: 0;
+
+    background: none;
+  }
+
+  .users__slider__user-name {
+    margin: 0;
+
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .users__slider__slogan {
+    margin-top: 16px;
+
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    line-height: 19px;
+  }
+
+  .users__slider__date {
+    margin-top: 11px;
+    margin-left: 27px;
+  }
+
+  .users__slider__services {
+    margin-top: 11px;
+    margin-left: 1px;
+  }
+
+  .users__slider__services li {
+    margin-right: 26px;
+  }
+}
