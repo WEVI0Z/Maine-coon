@@ -166,6 +166,10 @@
 }
 
 @media (max-width: $mobile-width) {
+  .users-opinions {
+    min-height: 552px;
+  }
+
   .users-opinions h2 {
     margin-top: 6px;
 
@@ -189,15 +193,18 @@
     right: 18px;
   }
 
+  .users__slider{
+    padding: 0;
+  }
+
   .users__slider .slider__item {
-    width: 320px;
-    min-height: 368px;
+    width: 100%;
+    min-height: 322px;
     margin-left: 0px;
     margin-top: 142px;
     padding-top: 87px;
-    padding-left: 0;
-
-    background: none;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .users__slider__user-name {
